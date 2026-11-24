@@ -1,0 +1,37 @@
+{
+  "listing": {
+    "ok": true,
+    "state": "ok",
+    "list": {
+      "net": "instagram",
+      "total": 12,
+      "shown": 12,
+      "page": 1,
+      "pages": 2,
+      "per": 10,
+      "types": {
+        "follow": 11,
+        "like": 1
+      },
+      "rows": [
+        {"id": 101, "platform": "instagram", "action": "follow", "left": 8},
+        {"id": 102, "platform": "instagram", "action": "follow", "left": 12},
+        {"id": 103, "platform": "instagram", "action": "follow", "left": 4},
+        {"id": 104, "platform": "instagram", "action": "follow", "left": 1},
+        {"id": 105, "platform": "instagram", "action": "follow", "left": 9},
+        {"id": 106, "platform": "instagram", "action": "follow", "left": 15},
+        {"id": 107, "platform": "instagram", "action": "follow", "left": 2},
+        {"id": 108, "platform": "instagram", "action": "follow", "left": 10},
+        {"id": 109, "platform": "instagram", "action": "follow", "left": 3},
+        {"id": 110, "platform": "instagram", "action": "follow", "left": 7}
+      ]
+    }
+  },
+  "check": {
+    "ok": true,
+    "eligible": true,
+    "found": null,
+    "code": "queued",
+    "wait_min": 25
+  }
+}

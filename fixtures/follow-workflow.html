@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="id">
+<meta charset="utf-8">
+<title>Simulasi Follow Instagram · offline</title>
+<main id="follow-demo" data-task-id="demo-follow-001" data-target="contoh_fixture"
+      data-quota="3" data-submit-delay="1" data-status="idle">
+  <h1>Simulasi Follow Instagram</h1>
+  <button id="start">Start</button>
+  <button id="follow" disabled>Follow</button>
+  <button id="check" disabled>Cek</button>
+</main>
+<script>
+  const root = document.querySelector("#follow-demo");
+  const start = document.querySelector("#start");
+  const follow = document.querySelector("#follow");
+  const check = document.querySelector("#check");
+  start.addEventListener("click", () => {
+    start.disabled = true;
+    root.dataset.profile = root.dataset.target;
+    root.dataset.following = "false";
+    follow.disabled = false;
+  });
+  follow.addEventListener("click", () => {
+    follow.disabled = true;
+    root.dataset.following = "true";
+    check.disabled = false;
+  });
+  check.addEventListener("click", () => {
+    check.disabled = true;
+    root.dataset.status = "queued";
+  });
+</script>
+</html>

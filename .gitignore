@@ -1,0 +1,12 @@
+/.env
+/flows
+/flows (*)
+/.venv/
+__pycache__/
+/logs/
+/data/history.json
+/data/.history.json.lock
+/data/history.json.*.tmp
+/data/history.json.follow-demo.json
+/data/history.json.follow-demo.json.*.tmp
+/data/.history.json.follow-demo.json.lock
